@@ -16,7 +16,7 @@ const serviceAccount = require('./newharty-3dc30-firebase-adminsdk-p73fl-86aa461
 const databaseURL = 'https://newharty-3dc30.firebaseio.com'
 const URL =
 'https://fcm.googleapis.com/v1/projects/newharty-3dc30/messages:send'
-
+ 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
     databaseURL: databaseURL
