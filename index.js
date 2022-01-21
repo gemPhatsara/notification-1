@@ -16,8 +16,6 @@ const serviceAccount = require('./newharty-3dc30-firebase-adminsdk-p73fl-86aa461
 const databaseURL = 'https://newharty-3dc30.firebaseio.com'
 const URL =
 'https://fcm.googleapis.com/v1/projects/newharty-3dc30/messages:send'
-// const deviceToken =
-// 'dawukXhbQT2_tvKllSC3BO:APA91bHwB8YGdC2Rh7XnddfW9cuQggHPbMrj5EXIm1Nj1miFiJCzRnKXyWFxN6ze2wUgyEq9pU-eqkwnMd4zzH-4ii9xVm2YscUZLeRMz9ZkGE04sDeyYm5P0RPdhQzEcIxs9nOd67cW'
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
